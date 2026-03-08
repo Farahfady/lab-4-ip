@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List V3 - Farah</title>
+    <link rel="stylesheet" href="todo_v3.css" />
+  </head>
+  <body>
+    <div class="todo-container">
+      <div class="todo-header">
+        <h2>Todo List - Farah</h2>
+      </div>
+      <div class="todo-input">
+        <input type="text" id="newTask" placeholder="Add a task..." />
+        <button id="addBtn">Add</button>
+      </div>
+      <div class="todo-filters">
+        <button id="allBtn" class="active">All</button>
+        <button id="completedBtn">Completed</button>
+        <button id="incompleteBtn">Incomplete</button>
+        <button id="sortAlphaBtn">A-Z</button>
+        <button id="sortTimeBtn">Time</button>
+      </div>
+      <ul class="todo-list" id="todoList"></ul>
+    </div>
+    <script src="todo_v3.js"></script>
+  </body>
+</html>
